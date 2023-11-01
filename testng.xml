@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="D:/Scramble/ScrambleAutomation">
+    <test verbose="2" preserve-order="true" name="D:/Scramble/New folder (2)/ScrambleAutomation1">
         <classes>
+            <class name="com.scramble.testcases.DidAPITest">
+                <methods>
+                    <include name="verifyCreateUserPostAPI"/>
+                    <include name="verifyGenerateActivationCodePostAPI"/>
+                    <include name="verifyRSAKeygenGetAPI"/>
+                    <include name="verifyUserRegistrationPostAPI"/>
+                    <include name="verifyRSASignPostAPI"/>
+                    <include name="verifyUserOtpVerifyPostAPI"/>
+                    <include name="verifyGetQidByGetAPI"/>
+                    <include name="verifyWebSocketConnectionOpen"/>
+                    <include name="verifyRSASign2PostAPI"/>
+                    <include name="verifyQIDPostAPI"/>
+                    <include name="verifyWebSocketWaitForConfirmResponse"/>
+                    <include name="verifyConfirmQIDPostAPI"/>
+                    <include name="verifyWebSocketSamlResponse"/>
+                    <include name="verifyWebSocketConnectionClose"/>
+                </methods>
+            </class>
             <class name="com.scramble.testcases.QidAPITest">
                 <methods>
                     <include name="verifyCreateUserPostAPI"/>
@@ -11,12 +29,14 @@
                     <include name="verifyUserRegistrationPostAPI"/>
                     <include name="verifyRSASignPostAPI"/>
                     <include name="verifyUserOtpVerifyPostAPI"/>
-                    <include name="verifyQidByGetAPI"/>
-                    <include name="verifyWebSocketConnectionOpen"/>
+                    <include name="verifyGetQidByGetAPI"/>
                     <include name="verifyRSASign2PostAPI"/>
+                    <include name="verifyWebSocketConnectionOpen"/>
                     <include name="verifyQIDPostAPI"/>
-                    <include name="verifyConfirmQIDYesPostAPI"/>
+                    <include name="verifyWebSocketWaitForConfirmResponse"/>
+                    <include name="verifyConfirmQIDPostAPI"/>
                     <include name="verifyWebSocketSamlResponse"/>
+                    <include name="verifyWebSocketConnectionClose"/>
                 </methods>
             </class>
             <class name="com.scramble.testcases.ScimAPITest">
