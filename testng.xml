@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Scramble/ScrambleAutomation">
+        <classes>
+            <class name="com.scramble.testcases.QidAPITest">
+                <methods>
+                    <include name="verifyCreateUserPostAPI"/>
+                    <include name="verifyGenerateActivationCodePostAPI"/>
+                    <include name="verifyRSAKeygenGetAPI"/>
+                    <include name="verifyUserRegistrationPostAPI"/>
+                    <include name="verifyRSASignPostAPI"/>
+                    <include name="verifyUserOtpVerifyPostAPI"/>
+                    <include name="verifyQidByGetAPI"/>
+                    <include name="verifyWebSocketConnectionOpen"/>
+                    <include name="verifyRSASign2PostAPI"/>
+                    <include name="verifyQIDPostAPI"/>
+                    <include name="verifyConfirmQIDYesPostAPI"/>
+                    <include name="verifyWebSocketSamlResponse"/>
+                </methods>
+            </class>
+            <class name="com.scramble.testcases.ScimAPITest">
+                <methods>
+                    <include name="verifyCreateUserPostAPI"/>
+                    <include name="verifyGetUserGetAPI"/>
+                    <include name="verifyUpdateUserPutAPI"/>
+                    <include name="verifyDeleteUserDeleteAPI"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

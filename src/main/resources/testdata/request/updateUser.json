@@ -1,0 +1,26 @@
+{
+  "userName": "",
+  "name": {
+    "familyName": "",
+    "givenName": "",
+    "preferredFirstName": "",
+    "preferredLastName": ""
+  },
+  "emails": [
+    {
+      "primary": "",
+      "value": "",
+      "type": "work"
+    }
+  ],
+  "ldapId": "",
+  "windowsId": "",
+  "enableDesktopApp": "yes",
+  "favColor": "blue",
+  "roles": [
+    "SUPER_ADMIN"
+  ],
+  "scrambleOps": {
+    "sendActivation": false
+  }
+}

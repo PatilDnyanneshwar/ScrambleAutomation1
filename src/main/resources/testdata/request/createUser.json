@@ -1,0 +1,23 @@
+{
+  "userName": "",
+  "name": {
+    "familyName": "",
+    "givenName": ""
+  },
+  "emails": [
+    {
+      "primary": "",
+      "value": "",
+      "type": "work"
+    }
+  ],
+  "ldapId": "",
+  "windowsId": "",
+  "roles": [
+    "SUPER_ADMIN"
+  ],
+  "active": true,
+  "scrambleOps": {
+    "sendActivation": false
+  }
+}
